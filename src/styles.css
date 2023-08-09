@@ -1,0 +1,83 @@
+body{ 
+    margin: 50px;
+   
+    }
+
+.logo{ 
+width:600px;
+}
+
+.contact{ 
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 100px;
+    text-align: end;
+    }
+    
+.info2{ 
+    display: flex;
+    justify-content: end;
+    margin-left: 15px;
+   
+    }
+
+    .company-name{ 
+        color: red;
+       
+        }
+
+    h2{ 
+        color: red;
+       
+        }
+ 
+        
+        .navbar-nav  .nav-link {
+            display: flex;
+flex-direction: row;
+justify-content: left;
+text-align: left;
+align-items: flex-end;
+align-content:flex-end ;
+margin-left: 70px;
+justify-content: space-between;
+margin-bottom: 70px;
+}
+
+.work{ 
+    border-radius: 20px;
+   width: 150px;
+   height: 40px;
+   color: red;
+   border: 1px solid red;
+   background: none;
+    }
+
+    .btn-danger { 
+        border-radius: 20px;
+       width: 150px;
+       height: 40px;
+       border: 1px solid red;
+        }
+ 
+@media(max-width:900px){ 
+    h1{ 
+        text-align: center;  
+      margin-top: 50px;
+              }
+
+              .logo{ 
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                width:500px;
+                margin-right: 300px;
+                }
+
+                .apps{ 
+color: black;
+text-align: center;
+                }
+}
