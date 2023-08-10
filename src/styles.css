@@ -33,6 +33,10 @@ width:600px;
        
         }
  
+        iTech{ 
+            color: red;
+           
+            }
         
         .navbar-nav  .nav-link {
             display: flex;
